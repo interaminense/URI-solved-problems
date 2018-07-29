@@ -10,7 +10,7 @@ The goal of this repository is to solve the problems listed in the Judge Online 
 
 ### ⚠️ Warning
 
-The resolution of these problems from this repository will not be approved by the URI if you try to copy and paste, because some requirements are required for the ** OUTPUT ** of the solution on the site.
+The resolution of these problems from this repository will not be approved by the URI if you try to copy and paste, because some requirements are required for the **OUTPUT** of the solution on the site.
 
 ### 👨‍💻 Contribute
 
