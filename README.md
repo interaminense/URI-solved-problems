@@ -18,7 +18,8 @@ To contribute, you will need:
 
 * Fork this repository;
 * Create a javascript file with the name of the problem based on some problem already solved;
-* Create the tests with the **INPUTS** and **OUTPUTS** provided by the URI.
+* Create the tests with the **INPUTS** and **OUTPUTS** provided by the URI;
+* Send a pull request to branch master and wait the CI approve your tests.
 
 Feel free to contribute and have fun!
 
