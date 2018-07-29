@@ -1,0 +1,13 @@
+branches:
+  - master
+
+cache:
+  yarn: true
+
+install:
+  - yarn
+
+language: javascript
+
+script:
+  - npm run test
