@@ -19,16 +19,12 @@
  * decimal point and with a blank space before and after the equal signal.
  */
 
-const average = (A, B) => {
-	const result = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
-
-	return tmpl(result.toFixed(5));
-};
-
-/**
- * Template definition
- * @param {string | number} result 
- */
 const tmpl = result => `AVERAGE = ${result}`;
 
-export {average, tmpl};
+const average = (A, B) => {
+  const result = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
+
+  return tmpl(result.toFixed(5));
+};
+
+export { average, tmpl };
