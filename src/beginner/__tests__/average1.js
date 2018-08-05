@@ -18,10 +18,10 @@ describe('Average 1', () => {
     expect(average(A, B)).toEqual(tmpl((4.84091).toFixed(5)));
   });
 
-  it('The average 0 + 0 must be 10.00000', () => {
+  it('The average 10.0 + 10.0 must be 10.0', () => {
     A = 10.0;
     B = 10.0;
 
-    expect(average(A, B)).toEqual(tmpl((10.00000).toFixed(5)));
+    expect(average(A, B)).toEqual(tmpl((10.0).toFixed(5)));
   });
 });

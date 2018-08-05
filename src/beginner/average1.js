@@ -22,7 +22,7 @@
 const tmpl = result => `AVERAGE = ${result}`;
 
 const average = (A, B) => {
-  const result = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
+  const result = (A * 3.5 + B * 7.5) / (3.5 + 7.5);
 
   return tmpl(result.toFixed(5));
 };
