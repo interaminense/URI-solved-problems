@@ -12,7 +12,7 @@ describe('Difference', () => {
     c = 7;
     d = 8;
 
-    expect(difference(a, b, c, d)).toEqual(tmpl((-26)));
+    expect(difference(a, b, c, d)).toEqual(tmpl(-26));
   });
 
   it('The differente between 0, 0, 7 and 8 is -56', () => {
@@ -21,7 +21,7 @@ describe('Difference', () => {
     c = 7;
     d = 8;
 
-    expect(difference(a, b, c, d)).toEqual(tmpl((-56)));
+    expect(difference(a, b, c, d)).toEqual(tmpl(-56));
   });
 
   it('The differente between 5, 6, -7 and 8 is 86', () => {
@@ -30,6 +30,6 @@ describe('Difference', () => {
     c = -7;
     d = 8;
 
-    expect(difference(a, b, c, d)).toEqual(tmpl((86)));
+    expect(difference(a, b, c, d)).toEqual(tmpl(86));
   });
 });

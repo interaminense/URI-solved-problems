@@ -18,6 +18,6 @@
 
 const tmpl = result => `DIFFERENCE = ${result}`;
 
-const difference = (a, b, c, d) => tmpl((a * b - c * d));
+const difference = (a, b, c, d) => tmpl(a * b - c * d);
 
 export { difference, tmpl };
