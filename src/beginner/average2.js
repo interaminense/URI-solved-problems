@@ -13,7 +13,7 @@
  * OUTPUT
  *
  * Print AVERAGE according to the following example
-*/
+ */
 
 const tmpl = result => `AVERAGE = ${result}`;
 

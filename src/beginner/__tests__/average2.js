@@ -10,7 +10,7 @@ describe('Average 2', () => {
     b = 6;
     c = 7;
 
-    expect(average(a, b, c)).toEqual(tmpl((6.3)));
+    expect(average(a, b, c)).toEqual(tmpl(6.3));
   });
 
   it('The average for 5, 10 and 10 must be 9', () => {
@@ -18,7 +18,7 @@ describe('Average 2', () => {
     b = 10;
     c = 10;
 
-    expect(average(a, b, c)).toEqual(tmpl((9)));
+    expect(average(a, b, c)).toEqual(tmpl(9));
   });
 
   it('The average 10, 10 and 5 must be 10', () => {
@@ -26,6 +26,6 @@ describe('Average 2', () => {
     b = 10;
     c = 5;
 
-    expect(average(a, b, c)).toEqual(tmpl((7.5)));
+    expect(average(a, b, c)).toEqual(tmpl(7.5));
   });
 });
