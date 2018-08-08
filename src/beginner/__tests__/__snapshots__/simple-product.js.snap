@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple prod The prod -30 * 10 must be -300 1`] = `"PROD = -300"`;
+
+exports[`Simple prod The prod 0 * 9 must be 0 1`] = `"PROD = 0"`;
+
+exports[`Simple prod The prod 3 * 9 must be 27 1`] = `"PROD = 27"`;

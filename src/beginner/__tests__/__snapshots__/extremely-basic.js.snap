@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extremely basic The sum -10 + 4 must be -6 1`] = `"X = -6"`;
+
+exports[`Extremely basic The sum 10 + 9 must be 19 1`] = `"X = 19"`;
+
+exports[`Extremely basic The sum 15 + (-7) must be 8 1`] = `"X = 8"`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Salary Employers number is 1 and the salary is 4100  1`] = `
+"NUMBER = 1
+SALARY = U$ 4100"
+`;
+
+exports[`Salary Employers number is 6 and the salary is 2254.75  1`] = `
+"NUMBER = 6
+SALARY = U$ 2254.75"
+`;
+
+exports[`Salary Employers number is 25 and the salary is 550  1`] = `
+"NUMBER = 25
+SALARY = U$ 550"
+`;
