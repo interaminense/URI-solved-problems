@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple sum The sum -30 + 10 must be -20 1`] = `"SUM = -20"`;
+
+exports[`Simple sum The sum 0 + 0 must be 0 1`] = `"SUM = 0"`;
+
+exports[`Simple sum The sum 30 + 10 must be 40 1`] = `"SUM = 40"`;

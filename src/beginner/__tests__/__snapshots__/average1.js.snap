@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Average 1 The average 10.0 + 10.0 must be 10.0 1`] = `"AVERAGE = 10.00000"`;
+
+exports[`Average 1 The average for 0.0 and 7.1 must be 4.84091 1`] = `"AVERAGE = 4.84091"`;
+
+exports[`Average 1 The average for 5.0 and 7.1 must be 6.43182 1`] = `"AVERAGE = 6.43182"`;

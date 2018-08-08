@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Area of a circle The raius is 2.0, so, the area of circle should be 12.5664 1`] = `"A = 12.5664"`;
+
+exports[`Area of a circle The raius is 100.64, so, the area of circle should be 31819.3103 1`] = `"A = 31819.3103"`;
+
+exports[`Area of a circle The raius is 150.0, so, the area of circle should be 70685.775 1`] = `"A = 70685.7750"`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Salary with bonus The fixed salary of JOAO is 500 and sallers total is 1230.30, his bonus is 684.54 1`] = `"TOTAL = 684.54"`;
+
+exports[`Salary with bonus The fixed salary of MANGOJATA is 1700 and sallers total is 1230.50, his bonus is 1884.58 1`] = `"TOTAL = 1884.58"`;
+
+exports[`Salary with bonus The fixed salary of PEDRO is 700.00 and sallers total is 0, his bonus is 700 1`] = `"TOTAL = 700.00"`;
