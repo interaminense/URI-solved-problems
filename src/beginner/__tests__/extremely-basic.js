@@ -1,27 +1,31 @@
 import { sum, tmpl } from '../extremely-basic';
 
 describe('Extremely basic', () => {
-  let a = 0;
-  let b = 0;
+  let A = 0;
+  let B = 0;
+  const result = (a, b) => sum(a, b);
 
   it('The sum 10 + 9 must be 19', () => {
-    a = 10;
-    b = 9;
+    A = 10;
+    B = 9;
 
-    expect(sum(a, b)).toEqual(tmpl(19));
+    expect(result(A, B)).toEqual(tmpl(19));
+    expect(result(A, B)).toMatchSnapshot();
   });
 
   it('The sum -10 + 4 must be -6', () => {
-    a = -10;
-    b = 4;
+    A = -10;
+    B = 4;
 
-    expect(sum(a, b)).toEqual(tmpl(-6));
+    expect(result(A, B)).toEqual(tmpl(-6));
+    expect(result(A, B)).toMatchSnapshot();
   });
 
   it('The sum 15 + (-7) must be 8', () => {
-    a = 15;
-    b = -7;
+    A = 15;
+    B = -7;
 
-    expect(sum(a, b)).toEqual(tmpl(8));
+    expect(result(A, B)).toEqual(tmpl(8));
+    expect(result(A, B)).toMatchSnapshot();
   });
 });
