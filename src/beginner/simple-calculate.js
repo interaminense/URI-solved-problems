@@ -20,7 +20,7 @@
 
 const tmpl = result => `R$ = ${result}`;
 
-const calculate = (code, count, value) => (count * value);
+const calculate = (code, count, value) => count * value;
 
 const valueToPay = (value1, value2) => tmpl((value1 + value2).toFixed(2));
 
