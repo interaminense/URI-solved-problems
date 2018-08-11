@@ -9,20 +9,18 @@ describe('Salary', () => {
   it('Employers number is 25 and the salary is 550 ', () => {
     employers = 25;
     hourNumber = 100;
-    valueByHour = 5.50;
+    valueByHour = 5.5;
 
-    expect(result(employers, hourNumber, valueByHour))
-      .toEqual(tmpl(employers, 550));
+    expect(result(employers, hourNumber, valueByHour)).toEqual(tmpl(employers, 550));
     expect(result(employers, hourNumber, valueByHour)).toMatchSnapshot();
   });
 
   it('Employers number is 1 and the salary is 4100 ', () => {
     employers = 1;
     hourNumber = 200;
-    valueByHour = 20.50;
+    valueByHour = 20.5;
 
-    expect(result(employers, hourNumber, valueByHour))
-      .toEqual(tmpl(employers, 4100));
+    expect(result(employers, hourNumber, valueByHour)).toEqual(tmpl(employers, 4100));
     expect(result(employers, hourNumber, valueByHour)).toMatchSnapshot();
   });
 
@@ -31,8 +29,7 @@ describe('Salary', () => {
     hourNumber = 145;
     valueByHour = 15.55;
 
-    expect(result(employers, hourNumber, valueByHour))
-      .toEqual(tmpl(employers, 2254.75));
+    expect(result(employers, hourNumber, valueByHour)).toEqual(tmpl(employers, 2254.75));
     expect(result(employers, hourNumber, valueByHour)).toMatchSnapshot();
   });
 });

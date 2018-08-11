@@ -9,7 +9,7 @@ describe('Salary with bonus', () => {
   it('The fixed salary of JOAO is 500 and sallers total is 1230.30, his bonus is 684.54', () => {
     name = 'JOAO';
     fixedSalary = 500;
-    salesTotal = 1230.30;
+    salesTotal = 1230.3;
 
     expect(result(name, fixedSalary, salesTotal)).toEqual(tmpl(684.54));
     expect(result(name, fixedSalary, salesTotal)).toMatchSnapshot();
@@ -27,7 +27,7 @@ describe('Salary with bonus', () => {
   it('The fixed salary of MANGOJATA is 1700 and sallers total is 1230.50, his bonus is 1884.58', () => {
     name = 'MANGOJATA';
     fixedSalary = 1700;
-    salesTotal = 1230.50;
+    salesTotal = 1230.5;
 
     expect(result(name, fixedSalary, salesTotal)).toEqual(tmpl(1884.58));
     expect(result(name, fixedSalary, salesTotal)).toMatchSnapshot();
