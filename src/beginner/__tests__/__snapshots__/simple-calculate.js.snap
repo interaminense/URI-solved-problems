@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple calculate The calculate must be 15.5 1`] = `"R$ = 15.50"`;
+
+exports[`Simple calculate The calculate must be 30.2 1`] = `"R$ = 30.20"`;
+
+exports[`Simple calculate The calculate must be 51.4 1`] = `"R$ = 51.40"`;
