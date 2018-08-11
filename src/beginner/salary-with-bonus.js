@@ -17,7 +17,7 @@
 const tmpl = salary => `TOTAL = ${salary}`;
 
 const salary = (name, fixedSalary, salesTotal) => {
-  const totalSalary = (salesTotal * 0.15) + fixedSalary;
+  const totalSalary = salesTotal * 0.15 + fixedSalary;
 
   return tmpl(totalSalary.toFixed(2));
 };
