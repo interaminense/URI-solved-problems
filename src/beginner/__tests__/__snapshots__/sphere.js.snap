@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sphere The volumn of 15 must be 14137.155 1`] = `"VOLUME = 14137.155"`;
+
+exports[`Sphere The volumn of 1523 must be 14797486501.627 1`] = `"VOLUME = 14797486501.627"`;
+
+exports[`Sphere The volumn passin 3 must be 113.097 1`] = `"VOLUME = 113.097"`;
